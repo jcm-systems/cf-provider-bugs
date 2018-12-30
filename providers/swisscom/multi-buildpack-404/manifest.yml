@@ -1,0 +1,8 @@
+---
+applications:
+- name: multi-buildpack-404
+  memory: 128M
+  random-route: true
+  buildpacks:
+  - binary_buildpack
+  - staticfile_buildpack
